@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adham Omran</title>
+    <link>http://adham-omran.com/</link>
+    <description>Recent content on Adham Omran</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://adham-omran.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Songwriting Workflow</title>
+      <link>http://adham-omran.com/songwriting_flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://adham-omran.com/songwriting_flow/</guid>
+      <description>[2020-10-28 Wed 21:32]Framework Purpose  Describe my songwriting process for various genres. Describe how to navigate writing a piece of music from start to finish. Describe my recording and production process for various genres. Describe the mixing process. Describe the mastering process. Describe how to maintain multiple songwriting projects. Describe how to collaborate with other musicians. Describe how to promote and publish music. Describe how to arrange for a live show.</description>
+    </item>
+    
+  </channel>
+</rss>

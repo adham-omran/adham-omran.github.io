@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Adham Omran</title>
+    
+    <meta name="description" content="The self-documenting human">
+    <meta name="author" content="">
+    
+    <link href="http://adham-omran.com/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://adham-omran.com/style.css" rel="stylesheet">
+    <link href="http://adham-omran.com/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://adham-omran.com/apple-touch-icon.png">
+    <link rel="icon" href="http://adham-omran.com/favicon.ico">
+    <meta name="generator" content="Hugo 0.82.0" />
+    
+    <link rel="alternate" type="application/rss+xml" href="http://adham-omran.com/index.xml" title="Adham Omran" />
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="list home">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <h1 class="logo"><a href="http://adham-omran.com/">Adham Omran</a></h1>
+        <ul class="menu">
+          <li>
+            <a href="/">Main</a>
+          </li>
+          <li>
+            <a href="https://www.github.com/adham-omran">GitHub</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+<header class="page-header"><h1>Adham Omran</h1></header>
+
+<article class="first-entry">
+  <header class="entry-header">
+    <h2>Songwriting Workflow</h2>
+  </header>
+  <section class="entry-content">
+   <p>[2020-10-28 Wed 21:32]Framework Purpose  Describe my songwriting process for various genres. Describe how to navigate writing a piece of music from start to finish. Describe my recording and production process for various genres. Describe the mixing process. Describe the mastering process. Describe how to maintain multiple songwriting projects. Describe how to collaborate with other musicians. Describe how to promote and publish music. Describe how to arrange for a live show....</p>
+  </section>
+  <footer class="entry-footer">
+    <time>January 1, 0001</time>
+  </footer>
+  <a class="entry-link" href="http://adham-omran.com/songwriting_flow/"></a>
+</article></main>
+<footer class="footer">
+  <span>&copy; 2021 <a href="http://adham-omran.com/">Adham Omran</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="http://adham-omran.com/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+
