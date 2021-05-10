@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Songwriting Workflow - Adham Omran</title>
+    
+    <meta name="description" content="[2020-10-28 Wed 21:32]Framework Purpose  Describe my songwriting process for various genres. Describe how to navigate writing a piece of music from start to finish. Describe my recording and production process for various genres. Describe the mixing process. Describe the mastering process. Describe how to maintain multiple songwriting projects. Describe how to collaborate with other musicians. Describe how to promote and publish music. Describe how to arrange for a live show.">
+    <meta name="author" content="[Adham Omran]">
+    
+    <link href="http://adham-omran.com/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://adham-omran.com/style.css" rel="stylesheet">
+    <link href="http://adham-omran.com/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://adham-omran.com/apple-touch-icon.png">
+    <link rel="icon" href="http://adham-omran.com/favicon.ico">
+    <meta name="generator" content="Hugo 0.83.1" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="http://adham-omran.com/">Adham Omran</a></p>
+        <ul class="menu">
+          <li>
+            <a href="https://www.github.com/adham-omran">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/adham_coe/">Instagram</a>
+          </li>
+          <li>
+            <a href="/">Main</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Songwriting Workflow</h1>
+    <div class="post-meta">[Adham Omran] · January 1, 0001</div>
+  </header>
+  <div class="post-content"><p><!-- raw HTML omitted --><!-- raw HTML omitted -->[2020-10-28 Wed 21:32]<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="framework">Framework</h2>
+<h3 id="purpose">Purpose</h3>
+<ul>
+<li>Describe my songwriting process for various genres.</li>
+<li>Describe how to navigate writing a piece of music from start to finish.</li>
+<li>Describe my recording and production process for various genres.</li>
+<li>Describe the mixing process.</li>
+<li>Describe the mastering process.</li>
+<li>Describe how to maintain multiple songwriting projects.</li>
+<li>Describe how to collaborate with other musicians.</li>
+<li>Describe how to promote and publish music.</li>
+<li>Describe how to arrange for a live show.</li>
+<li>Describe how to prepare equipment for live shows.</li>
+<li>Describe how to pickup inspiration from other artists.</li>
+<li>Describe how to implement online tutorials into the process by finding where they fit within the workflow, for example a video about chord progressions can be a usefulf resource when writing sections or fleshing out ideas.</li>
+<li>These are guidelines, not rules.</li>
+</ul>
+<h3 id="modules">Modules</h3>
+<ul>
+<li>Creating a song involves 5 modules</li>
+</ul>
+<h4 id="writing-and-production--org7cada31"><a href="#writing-and-production">Writing &amp; Production</a></h4>
+<h4 id="tools--org41ff60b"><a href="#tools">Tools</a></h4>
+<ul>
+<li>Describes the VST tools used for production.</li>
+<li>Describes the templates for various uses.</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Instrument VSTs</p>
+<!-- raw HTML omitted -->
+<ul>
+<li>LABS</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>NotePerfomer</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Native Instruments</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>SSD5</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Effects VSTs.</p>
+<!-- raw HTML omitted -->
+<ul>
+<li>Compression</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>EQs</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Delay</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Space</li>
+</ul>
+</li>
+</ul>
+<h4 id="project-management">Project Management</h4>
+<h4 id="promotion-and-publishing">Promotion &amp; Publishing</h4>
+<h4 id="live-shows">Live Shows</h4>
+<h3 id="writing-and-production">Writing &amp; Production</h3>
+<ul>
+<li>Songwriting Definition</li>
+<li>Writing a song is the process of writing <em>sections</em> and <em>arranging</em> them to create a musical piece, the <em>sections</em> themselves are formed from <em>elements</em>, these elements can be a drum groove, guitar rhythm loop, or any musical idea that has been written -or improvised- and recorded.</li>
+<li>After writing a section (verse or chorus) a <em>relative section</em> can be written (e.g. a verse to a chorus) by changing the arrangement and elements of the section.</li>
+<li>I can write sections with no lead and let my band mates play lead.</li>
+</ul>
+<h4 id="steps">Steps</h4>
+<ul>
+<li>Describtion of the different steps in detail, a <a href="/ox-hugo/writing.pdf">graph</a> can also be followed.</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Idea -&gt; Element -&gt; Section -&gt; Relative Sections.</p>
+<!-- raw HTML omitted -->
+<ul>
+<li>Write -&gt; Learn -&gt; Record.</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Arrangement</p>
+<!-- raw HTML omitted -->
+<ul>
+<li>Form.</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Energy levels.</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Mixing</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Mastering</p>
+<ul>
+<li>Creates the final piece of music.</li>
+</ul>
+</li>
+</ul>
+<h4 id="arrangement-and-structure">Arrangement and Structure</h4>
+<ul>
+<li>Each genre entry needs: (Template)
+<ol>
+<li>Structure.</li>
+<li>Instrumentation.</li>
+<li>Reaper Template.</li>
+<li>Popular material in that genre.</li>
+</ol>
+</li>
+<li>This section describes genres based on their structure and instrumentation.</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><!-- raw HTML omitted -->TODO<!-- raw HTML omitted -->  Pop</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><!-- raw HTML omitted -->TODO<!-- raw HTML omitted -->  Synthwave</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><!-- raw HTML omitted -->TODO<!-- raw HTML omitted -->  Rock</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><!-- raw HTML omitted -->TODO<!-- raw HTML omitted -->  Shoegaze</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li><!-- raw HTML omitted -->TODO<!-- raw HTML omitted -->  Classical</li>
+</ul>
+<h4 id="analysis-of-other-dot">Analysis Of Other.</h4>
+<ul>
+<li>TODO How To Steal Like An Artist.</li>
+<li>Deconstruct song structures.</li>
+<li>Understand what you like about your favourite pieces of music.</li>
+</ul>
+<h4 id="recording">Recording</h4>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Divide recording sessions based on instruments</p>
+<ul>
+<li>For example, a day for guitar, a day for mixing guitar and tone, a day for vocals, a day for mixing vocals, etc.</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Separate Recording and Mixing</p>
+<ul>
+<li>When recording guitar, do it in raw so you can edit the tone later, use a general tone that fits the recording purpose, but don&rsquo;t be bothered by it being a &ldquo;perfect&rdquo; tone.</li>
+</ul>
+</li>
+</ul>
+<h3 id="project-management-musical-works-in-writing"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> Project Management: [Musical Works In Writing]</h3>
+<ul>
+<li>Document that maintains multiple projects in writing.</li>
+<li>Describes what sections have been written, recoreded.</li>
+<li>Describes mixing progress.</li>
+<li>Describes scheduled dates for working on various sections.</li>
+</ul>
+<h3 id="promotion-and-publishing"><!-- raw HTML omitted -->HOLD<!-- raw HTML omitted --> Promotion &amp; Publishing</h3>
+<h2 id="tools">Tools</h2>
+<h3 id="reaper">Reaper</h3>
+<h3 id="plugings">Plugings</h3>
+<h4 id="mixing">Mixing</h4>
+<h4 id="writing">Writing</h4>
+<h2 id="workflow">Workflow</h2>
+<h3 id="starting-points">Starting Points</h3>
+<ul>
+<li>Who am I creating this song for?</li>
+<li>What story do I want to tell?</li>
+<li>What songs do I like? Can I recreate what I like?
+<ul>
+<li>Compile from multiple songs (2~3)</li>
+</ul>
+</li>
+<li>OPTIONAL: Use the song to learn a single skill, for example tremolo picking for guitar</li>
+<li>Begin with a template using the data from above</li>
+</ul>
+<h3 id="composing-and-recording">Composing &amp; Recording</h3>
+<p>These two concepts are different, you can compose something and learn it for the song.</p>
+<ul>
+<li>When you have fully finished ideas: Recording should be done in instrument based batches, for example: a day for recording guitar, etc.</li>
+<li>When you are just starting, play around with ideas and record them as takes, then attempt to arrange those ideas into structures.</li>
+<li>Arranging: Arrange all the pieces of music into a template based on genre and control its energy and flow.</li>
+<li>Mixing: Mix using the songs that inspired you as reference.</li>
+<li>Mastering: Master using your ears as well as reference.</li>
+</ul>
+<h3 id="arrangement">Arrangement</h3>
+<h4 id="arrangement-templates">Arrangement Templates</h4>
+<!-- raw HTML omitted -->
+<ul>
+<li>Pop
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>Bars</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Intro</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td>Verse A</td>
+<td>16</td>
+<td></td>
+</tr>
+<tr>
+<td>Pre</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td>Chorus</td>
+<td>8</td>
+<td></td>
+</tr>
+<tr>
+<td>Verse B</td>
+<td>8</td>
+<td></td>
+</tr>
+<tr>
+<td>Pre Chorus</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr>
+<td>Chorus</td>
+<td>8</td>
+<td></td>
+</tr>
+<tr>
+<td>Bridge</td>
+<td>8</td>
+<td></td>
+</tr>
+<tr>
+<td>Chorus</td>
+<td>8</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>Rock</li>
+</ul>
+<h4 id="solos">Solos</h4>
+<ul>
+<li>Generally electric guitar, backed up by a keyboard section and drums.</li>
+</ul>
+<h3 id="collaboration--online">Collaboration (Online)</h3>
+<h4 id="composing-and-recording">Composing and Recording</h4>
+<p>On a call or NINJAM with text, muscial ideas can be traded and compsoed, to be then be practiced and recorded offline, then sent to the mixer of the gourp.</p>
+<h4 id="file-management">File management</h4>
+<p>Transfer stems, clean and with effects, have as many similar effects as possible.</p>
+<h4 id="test-syncthing-for-sharing-project-files-dot"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> Test Syncthing for sharing project files.</h4>
+<h3 id="release"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> Release</h3>
+<ul>
+<li>If the song is to be released as a single, build up hype for it, don&rsquo;t just throw it into the void, have at least 10 people expecting the song.</li>
+<li>If the song is part of an album, tease parts of it on social media with an &ldquo;Album/EP Soon&rdquo;. Only do this when you have at least three songs being worked on.</li>
+</ul>
+<h3 id="general-principles">General Principles</h3>
+<ul>
+<li>Write with what you have, it&rsquo;s okay to not rely on your head.</li>
+<li>You could A/B ideas to people.</li>
+<li>Do a number of takes, pick the best to your ears.</li>
+<li>Simplify ideas.</li>
+<li>Build upon simple ideas.</li>
+<li>Use the chorus to deliever the core message.</li>
+<li>Use older projects for ideas.</li>
+</ul>
+<h4 id="questions-to-ask-while-writing">Questions to ask while writing</h4>
+<ul>
+<li>Could I simplify?</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Lyrics</p>
+<ul>
+<li>Am I saying something?</li>
+<li>Is the storytelling good?</li>
+<li>Is it dramatic?</li>
+<li>Is this going somewhere?</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Music</p>
+<ul>
+<li>Are the hooks simple enough?</li>
+<li>Can I make this element stronger?</li>
+<li>Should I make it weaker?</li>
+<li>How do my sections connect?</li>
+</ul>
+</li>
+</ul>
+</div>
+  
+</article></main>
+<footer class="footer">
+  <span>&copy; 2021 <a href="http://adham-omran.com/">Adham Omran</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="http://adham-omran.com/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+

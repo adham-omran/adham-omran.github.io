@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://adham-omran.com/20210506220541-time_categories/</loc>
-    <lastmod>2021-05-06T00:00:00+03:00</lastmod>
-  </url><url>
     <loc>http://adham-omran.com/</loc>
+    <lastmod>2021-05-06T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://adham-omran.com/concepts/</loc>
+    <lastmod>2021-05-06T00:00:00+03:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>http://adham-omran.com/concepts/time-categories/</loc>
+    <lastmod>2021-05-06T00:00:00+03:00</lastmod>
   </url><url>
     <loc>http://adham-omran.com/categories/</loc>
   </url><url>
-    <loc>http://adham-omran.com/20201028213228-songwriting_workflow/</loc>
+    <loc>http://adham-omran.com/concepts/songwriting-workflow/</loc>
   </url><url>
     <loc>http://adham-omran.com/tags/</loc>
   </url>
