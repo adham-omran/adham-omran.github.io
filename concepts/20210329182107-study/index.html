@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>Study - Adham Omran</title>
+    
+    <meta name="description" content=":ID: 49bf7878-62a2-4c6b-8990-da59fa5e00fa
+[2021-03-29 Mon 18:21] tags Deep Work Blocks, ,  Purpose, Framework and Workflow Abstract  Below is the detailed documentation of how I study, by that I mean the process of taking a source of information, converting it into notes, then state how to process these notes, mainly for spaced repition and Zettelkasten literature notes  Purpose of Material  For a piece of material to be worth studying, processing and memorizing, it must provide value to the learner, this value can come in many forms, but it has to provide it in some form.">
+    <meta name="author" content="[Adham Omran]">
+    
+    <link href="http://adham-omran.com/an-old-hope.min.css" rel="stylesheet">
+    <link href="http://adham-omran.com/style.css" rel="stylesheet">
+    <link href="http://adham-omran.com/custom.css" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" href="http://adham-omran.com/apple-touch-icon.png">
+    <link rel="icon" href="http://adham-omran.com/favicon.ico">
+    <meta name="generator" content="Hugo 0.83.1" />
+    
+    
+    
+    <script>
+      function setTheme() {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.body.classList.add('dark');
+          return;
+        }
+
+        const time = new Date();
+        const prev = localStorage.getItem('date');
+        const date = String(time.getMonth() + 1) + '.' + String(time.getDate());
+
+        const now = time.getTime();
+        let sunrise;
+        let sunset;
+
+        function setBodyClass() {
+          if (now > sunrise && now < sunset) return;
+          document.body.classList.add('dark');
+        }
+
+        if (date !== prev) {
+          fetch('https://api.ipgeolocation.io/astronomy?apiKey=5ed37d85103e4defa5df4c5298ed5215')
+            .then((res) => res.json())
+            .then((data) => {
+              sunrise = data.sunrise.split(':').map(Number);
+              sunset = data.sunset.split(':').map(Number);
+            })
+            .catch(() => {
+              sunrise = [7, 0];
+              sunset = [19, 0];
+            })
+            .finally(() => {
+              sunrise = time.setHours(sunrise[0], sunrise[1], 0);
+              sunset = time.setHours(sunset[0], sunset[1], 0);
+              setBodyClass();
+              localStorage.setItem('sunrise', sunrise);
+              localStorage.setItem('sunset', sunset);
+            });
+          localStorage.setItem('date', date);
+        } else {
+          sunrise = Number(localStorage.getItem('sunrise'));
+          sunset = Number(localStorage.getItem('sunset'));
+          setBodyClass();
+        }
+      }
+    </script>
+  </head>
+  <body class="single">
+    <script>
+      setTheme();
+    </script>
+    <header class="header">
+      <nav class="nav">
+        <p class="logo"><a href="http://adham-omran.com/">Adham Omran</a></p>
+        <ul class="menu">
+          <li>
+            <a href="https://www.github.com/adham-omran">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/adham_coe/">Instagram</a>
+          </li>
+          <li>
+            <a href="/">Main</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">Study</h1>
+    <div class="post-meta">[Adham Omran] · May 11, 2021</div>
+  </header>
+  <div class="post-content"><p>:ID:       49bf7878-62a2-4c6b-8990-da59fa5e00fa</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->[2021-03-29 Mon 18:21]<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<dl>
+<dt>tags</dt>
+<dd><a href="20210314220715-deep_work_blocks.md">Deep Work Blocks</a>, ,</dd>
+</dl>
+<h2 id="purpose-framework-and-workflow">Purpose, Framework and Workflow</h2>
+<h3 id="abstract">Abstract</h3>
+<ul>
+<li>Below is the detailed documentation of how I study, by that I mean the process of taking a source of information, converting it into notes, then state how to process these notes, mainly for <em>spaced repition</em> and <em>Zettelkasten literature notes</em></li>
+</ul>
+<h3 id="purpose-of-material">Purpose of Material</h3>
+<ul>
+<li>For a piece of material to be worth studying, processing and memorizing, it must provide value to the learner, this value can come in many forms, but it has to provide it in some form.</li>
+<li>Examples of value:
+<ul>
+<li>Introduces a new framework or workflow.</li>
+<li>Improves an existing framework or workflow.</li>
+<li>Advances my knowledge in a field of interest.</li>
+<li>Enhances the way I use my existing <a href="20210303182333-tools.md">Tools</a> and <a href="20210303182118-resources.md">Resources</a>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="processing-material">Processing Material</h3>
+<h4 id="framework-process">Framework Process</h4>
+<ul>
+<li>
+<p>When a reading starts, check the <a href="20210329102030-reading_queue.md">Reading Queue</a> to know what to start or continue processing.</p>
+</li>
+<li>
+<p>NOTE: The process is a bit different depending on source but the core of (Source -&gt; Dailies -&gt; Zettelkasten / SRS) remains the same.</p>
+</li>
+<li>
+<p>What &ldquo;Source&rdquo; gets processed is determined by <a href="20210329102030-reading_queue.md">Reading Queue</a> (<em>What to read</em>), <a href="../literature-notes/20210506220541-time_categories.md">Time Categories</a> and <a href="20210314220715-deep_work_blocks.md">Deep Work Blocks</a> (<em>When to read it?</em>).</p>
+</li>
+<li>
+<p>The output of writing notes has two paths.</p>
+<ol>
+<li>Exported as .html files then used as input for <a href="20201207203849-supermemo.md">SuperMemo</a>.</li>
+<li>Put inside index notes, then formulated into literature notes.
+<ul>
+<li>
+<p>Why index notes?</p>
+<p>With the large number of sources out there, it makes it more easy to work with index notes of &ldquo;source&rdquo; each containing literature notes on it.</p>
+</li>
+<li>
+<p>Why use dailies and note take notes directly to the <em>index note</em>?</p>
+<p>Firstly, It allows for a distraction free note-taking environment, as you&rsquo;re not looking at what you&rsquo;ve written before and distract yourself by formulating this and that.</p>
+<p>Secondly, It allows for more efficient exports, as you only need to export one branch (org-mode specific).</p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p>For working on original non-music material, check the <a href="20210329091547-writing_queue.md">Writing Queue</a>.</p>
+</li>
+</ul>
+<h4 id="practical-process">Practical Process</h4>
+<ul>
+<li>Create or go to an <em>index note</em> for the material that you&rsquo;re processing.</li>
+<li>Open your dailies note for the day.</li>
+<li>Start a pomodora.</li>
+<li>Read, Notate, Repeat until pomodoras end.</li>
+<li>After you finish a chapter or complete a section, export to html then into import into <a href="20201207203849-supermemo.md">SuperMemo</a>, then move the notes to the <em>index note</em>.</li>
+</ul>
+<h4 id="things-to-keep-in-mind-while-reading">Things to keep in mind while reading</h4>
+<ul>
+<li>Understanding a concept doesn&rsquo;t mean that you know how to apply it.</li>
+<li>Re-write the concept in your own words.</li>
+<li>Try to explain the concept to someone else.</li>
+<li>Find areas in which you can apply the concept that you&rsquo;re studying.</li>
+<li>What&rsquo;s interesting about this to me?</li>
+<li>How is this relevant to what I already know?</li>
+<li>How might this connect to concepts I know about?</li>
+</ul>
+<h4 id="formulating-your-notes">Formulating Your Notes</h4>
+<ul>
+<li><a href="https://zettelkasten.de/posts/how-to-write-notes-you-can-understand/">How to Write a Note That You Will Actually Understand • Zettelkasten Method</a></li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Write simple</p>
+<ul>
+<li>Use paragraphs.</li>
+<li>Use short understandable sentences.</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Write with explicit form</p>
+<ul>
+<li>Since notes can describe different items, from a philosophical idea to a statistics concept, different types of notes can exit with different form or <em>template</em> for each (YASnippet is a possible effective solution here.)</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Use a clear title about the content</p>
+<ul>
+<li>The title should describe the note.</li>
+<li>Long titles are fine.</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Add an abstract</p>
+<ul>
+<li>Add an abstract that describes the content of the note.</li>
+</ul>
+</li>
+</ul>
+<!-- raw HTML omitted -->
+<ul>
+<li>
+<p>Keep in mind</p>
+<ul>
+<li>Notes should be written with a future you in mind, don&rsquo;t write without making sure that you will understand in the future.</li>
+</ul>
+</li>
+</ul>
+<h4 id="proofing-and-skimming"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> Proofing and Skimming</h4>
+<p><strong>- THIS CONCEPT IS UNDER RESEARCH AND IS NOT IMPTLEMENTED AS OF WRITING</strong></p>
+<ul>
+<li>It can be useful to set a pre-fix amount of time to read a book, 300 pages in 8 hours is the current estimate, that&rsquo;s 16 Pomodora sessions.
+<ul>
+<li>Overview: 5-10% of total time:</li>
+<li>Detail: 70-80% of total time:</li>
+<li>Notes: 10-20% of total time:</li>
+</ul>
+</li>
+<li>You don&rsquo;t have to read the whole book always, <em>discover</em>, <em>understand</em> and then <em>remember</em> information.</li>
+<li>Check the table of contents, pictures, charts, headings and other element rich text before diving into detail.</li>
+<li>Check the background of the author, their time period, biases, context.</li>
+<li>When reading academic writing keep in mind that most of it is an ongoing conversation, with debates, key figures and concepts specific to that field.</li>
+<li>Use different methods to read, talk, and visualize the material.</li>
+</ul>
+<h3 id="recall-supermemo"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> Recall: SuperMemo</h3>
+<h3 id="research"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> Research</h3>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="http://pne.people.si.umich.edu/PDF/howtoread.pdf">How To Read A Book - V5 by Paul N. EdwardsRead A Book - V5 by Paul N. Edwards (PDF, 277KB)</a></li>
+<li><a href="https://www.youtube.com/watch?v=Ewhfok91AdE">My 2020 Comprehensive Obsidian Workflow For Zettelkasten and Evergreen Notes (YouTube)</a></li>
+</ul>
+<h2 id="updates-to-be-done-dot">Updates to be done.</h2>
+<h3 id="create-multiple-graphed-flows-for-different-sources-dot"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> Create multiple graphed flows for different sources.</h3>
+<h3 id="research-section"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> Research Section</h3>
+</div>
+  
+</article></main>
+<footer class="footer">
+  <span>&copy; 2021 <a href="http://adham-omran.com/">Adham Omran</a></span>
+  <span>&middot;</span>
+  <span>Powered by <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>️</span>
+  <span>&middot;</span>
+  <span>Theme️ <a href="https://github.com/nanxiaobei/hugo-paper" rel="noopener" target="_blank">Paper</a></span>
+</footer>
+<script src="http://adham-omran.com/highlight.min.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
+
