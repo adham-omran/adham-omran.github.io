@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Adham Omran</title>
+    <title>Concepts on Adham Omran</title>
     <link>http://adham-omran.com/concepts/</link>
-    <description>Recent content on Adham Omran</description>
+    <description>Recent content in Concepts on Adham Omran</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 May 2021 00:00:00 +0300</lastBuildDate><atom:link href="http://adham-omran.com/concepts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0300</lastBuildDate><atom:link href="http://adham-omran.com/concepts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Planning</title>
+      <link>http://adham-omran.com/concepts/20210413192701-planning/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0300</pubDate>
+      
+      <guid>http://adham-omran.com/concepts/20210413192701-planning/</guid>
+      <description>Created: [2021-04-13 Tue 19:27] Modified: [2021-06-07 Tue 13:16]  Abstract My plans come in a hierarchical form, starting at any point in the chain can lead you to the other levels of planning. The entire form is as follows:
+Planning Hierarchy   Vision: Highest level, least defined, most abstract, it&amp;rsquo;s where you want to find yourself, Example: Become a web developer.
+  Roadmap: A set of projects that when done, accomplish part of a vision.</description>
+    </item>
+    
     <item>
       <title>Study</title>
       <link>http://adham-omran.com/concepts/20210329182107-study/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0300</pubDate>
       
       <guid>http://adham-omran.com/concepts/20210329182107-study/</guid>
-      <description>:ID: 49bf7878-62a2-4c6b-8990-da59fa5e00fa
-Original Writing: [2021-03-29 Mon 18:21]Updated: [2021-05-11 Tue 13:02] tags Deep Work Blocks, ,  Purpose, Framework and Workflow Abstract  Below is the detailed documentation of how I study, by that I mean the process of taking a source of information, converting it into notes, then state how to process these notes, mainly for spaced repition and Zettelkasten literature notes  Purpose of Material  For a piece of material to be worth studying, processing and memorizing, it must provide value to the learner, this value can come in many forms, but it has to provide it in some form.</description>
+      <description>Created: [2021-03-29 Mon 18:21] Updated: [2021-06-07 Mon 14:19]  Abstract  Below is the detailed documentation of how I study, by that I mean the process of taking a source of information, converting it into notes, then state how to process these notes, mainly for spaced repition and Zettelkasten literature notes  Purpose of Material  For a piece of material to be worth studying, processing and memorizing, it must provide value to the learner.</description>
     </item>
     
     <item>
@@ -23,7 +33,7 @@ Original Writing: [2021-03-29 Mon 18:21]Updated: [2021-05-11 Tue 13:02] tags Dee
       <pubDate>Thu, 06 May 2021 00:00:00 +0300</pubDate>
       
       <guid>http://adham-omran.com/concepts/time-categories/</guid>
-      <description>Abstract  This concept states that we should look at time in terms of its category in addition to its blocks (Deep Work Blocks) and roles (Roles). Simply, time can be seen as categories, the two main ones are Doing and Thinking. Thinking involves activities such as study, research and reading (Reading queue). Doing invovles anything action-oriented such as practice, writing for publishing (NOT note-taking or formulation), recording, composing, coding for a project (NOT reading guides)  Application  Use the 80/20 division of Doing/Study I want to use this on a weekly scale, assuming work weeks are 6 days, 12 hours a day (4 a.</description>
+      <description>Created: [2021-05-06 Thu 22:05] Updated: [2021-06-07 Wed 19:14]  Abstract  This concept states that we should look at time in terms of its category in addition to its blocks (Deep Work Blocks) and roles (Roles). Simply, time can be seen as categories, the two main ones are Doing and Thinking. Thinking involves activities such as study, research and reading (Reading queue). Doing invovles anything action-oriented such as practice, writing for publishing (NOT note-taking or formulation), recording, composing, coding for a project (NOT reading guides)  Application  Use the 80/20 division of Doing/Study I want to use this on a weekly scale, assuming work weeks are 6 days, 12 hours a day (4 a.</description>
     </item>
     
     <item>
