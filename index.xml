@@ -8,12 +8,23 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0300</lastBuildDate><atom:link href="http://adham-omran.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Contact</title>
+      <link>http://adham-omran.com/contact/</link>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0300</pubDate>
+      
+      <guid>http://adham-omran.com/contact/</guid>
+      <description>Contact Me! Email Email me at adham.rasoul@hotmail.com!
+You can also find me on  Instagram GitHub LinkedIn  </description>
+    </item>
+    
+    <item>
       <title>Now</title>
       <link>http://adham-omran.com/now/</link>
-      <pubDate>Mon, 07 Jun 2021 00:00:00 +0300</pubDate>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0300</pubDate>
       
       <guid>http://adham-omran.com/now/</guid>
-      <description>Abstract  This page describes what projects I&amp;rsquo;m working on at the moment.  </description>
+      <description>This page lists what I am working on at the moment!
+Data Analysis  Learning to become a data analyst, currently studying Applied Statistics by Devore.  System of Systems  Designing my own System of Systems for productivity and life management with the aims of a simple and pragmatic approach to living life.  </description>
     </item>
     
     <item>
